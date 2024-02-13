@@ -1,0 +1,23 @@
+python -m django --version                  (version)
+django-admin                                (Subcommands of django)
+django-admin startproject project_name      (create project)
+python manage.py runserver                  (run project)
+python manage.py startapp blog              (create app)
+
+
+
+
+
+
+
+
+
+
+
+
+Notes:
+manage.py allows us to run command-line commands
+__init__.py is an empty file that tells python that this is a python package
+settings.py allows us to make different settings and configurations
+urls.py this is where we setup the mapping from certain urls
+wsgi.py 
